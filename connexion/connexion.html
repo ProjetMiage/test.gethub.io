@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>AlloDocteur-Connectez-vous</title> 
+        <link rel="stylesheet" href="connexion.css">
+        <meta name="description" content="je suis patient">
+        <meta name=”viewport” content=”width=device-width, initial-scale=1”>
+    </head>
+    <body>
+        <header>
+            <nav class="header-nav">
+                <a id="accueil" href="../index.html">Accueil</a>
+                <a href="../aide/aide.html" id="connexion" target="_blank">Centre d'aide</a>
+              </nav>
+        </header>
+        <form action="" class="formulaire" id="formulaireIns" method="post">
+            <fieldset id="cadre">
+                <div id="compte">
+                  <h4>J'ai déja un compte AlloDocteur</h4>
+                </div>
+                <div>
+                   <label for="emailinput">E-mail</label>
+                   <input type="text" name="nom" id="emailinput">
+                </div>
+                <div>
+                    <label for="motdepasseinput">Mot de passe</label>
+                    <input type="password" name="motdepasse" id="motdepasseinput">
+                </div>
+                <div id="submit">
+                    <button type="submit">se connecter</button>
+                </div>
+                <h4><a href="../aide/aide.html">Mot de passe oublié ?</a></h4>
+            </fieldset>
+        </form>
+
+        <form action="form"  class="formulaire">
+            <fieldset id="cadre2">
+                <h4>Nouveau sur Allo Docteur ?</h4>
+                <a href="../patient/patient.html">S'inscrire</a>
+            </fieldset>
+        </form>
+        <script src="connexion.js"></script>
+    </body>
+</html>

@@ -1,0 +1,139 @@
+header{
+    background: rgb(84, 84, 190);
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 60px;
+}
+
+.header-nav{
+    font-size: 25px;
+    text-align: right;
+    font-family: serif;
+    width: auto;
+    margin-right: 20px;
+}
+
+.header-nav a{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 15px;
+   
+}
+ 
+.header-nav a:hover {
+    text-decoration: underline;
+    color: black;
+ }
+
+ #accueil{
+    float: left;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-left: 10px;
+    margin-top: 0;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    
+ }
+
+ #accueil:hover{
+    color: aliceblue;
+ }
+body{
+    background: aliceblue;
+}
+
+.formulaire{
+    width: 35%;
+    height: auto;
+    line-height: 20px;
+    font-weight: lighter;
+    position: relative;
+    left: 450px;
+    top: 25px;
+}
+
+#cadre{
+    border-radius: 40px;
+    border: 1px solid rgb(84, 84, 190);
+    background: white;
+    height: 360px;
+}
+#cadre legend{
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#cadre label{
+    display: block;
+    margin-top: 5px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 40px;
+}
+
+#cadre input{
+    border-radius: 15px;
+    border: 1px solid rgb(84, 84, 190);
+    width: 75%;
+    height: 28px;
+    margin: 5px;
+    position: relative;
+    left: 30px;
+}
+
+#cadre #submit{
+    height: 60px;
+}
+
+#cadre #submit button{
+    position: relative;
+    top: 30px;
+    left: 60px;
+   width: 300px;
+   height: 40px;
+   border-radius: 20px;
+   border: 1px solid ;
+    background:  rgb(84, 84, 190);
+    color: white;
+}
+
+#compte {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    text-align: center;
+}
+
+#cadre2{
+    border-radius: 40px;
+    border: 1px solid rgb(84, 84, 190);
+    background: white;
+    position: relative;
+   top: 40px;
+}
+
+#cadre2 h4{
+    text-align: center;
+    font-size: 18px;
+}
+
+#cadre2 a{
+    font-size: 18px;
+    position: relative;
+    left: 180px;
+}
+
+

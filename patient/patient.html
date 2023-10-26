@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <title>AlloDocteur-Patient</title> 
+      <link rel="stylesheet" href="patient.css">
+      <meta name="description" content="je suis patient">
+      <meta name=”viewport” content=”width=device-width, initial-scale=1”>
+    </head>
+
+    <body class="body">
+        <header>
+          <nav class="header-nav">
+            <a id="accueil" href="../index.html">Accueil</a>
+            <a href="../connexion/connexion.html" id="connexion">Se connecter</a>
+          </nav>
+        </header>
+        <div id="h4">
+            <h4>Creer un compte si vous etes patient
+            </h4>
+        </div>
+
+        <div class="rest-body">
+            <form action="" class="formulaire" id="formulaireIns" method="post">
+              <fieldset id="cadre">
+                  <legend>Inscrivez-vous</legend>
+                  <div>
+                    <div>
+                      <label for="prenominput">Prenom</label>
+                      <input type="text" name="Prenom" id="prenominput" placeholder="Prenom" checked>
+                    </div>
+                    <div>
+                      <label for="nominput">Nom</label>
+                      <input type="text" name="Nom" id="nominput" placeholder="Nom" >
+                    </div>
+                    <div>
+                      <label for="emailinput">E-mail</label>
+                      <input type="text" name="E-mail" id="emailinput" placeholder="patient@gmail.com" checked>
+                    </div>
+                    <div>
+                      <label for="motdepasseinput">Mot de passe</label>
+                      <input type="password" name="motdepasse" id="motdepasseinput" checked>
+                    </div>
+                    <div>
+                      <label for="mobileinput">Téléphone</label>
+                      <input type="tel" name="mobile" id="mobileinput" pattern="(+221)[7][0/5/6/7/8][0-9]{7}">
+                    </div>
+                    <div>
+                      <label for="sexeselect">Sexe</label>
+                      <div>
+                        <select name="sexe" id="sexeselect">
+                          <option value="sexe">Sexe</option>
+                          <option value="femme">Femme</option>
+                          <option value="homme">Homme</option>
+                        </select>   
+                      </div>
+                        <label class="label-condition">
+                            <input type="checkbox" name="cgu" id="condition">J'ai lu et j'accepte les Conditions Générales d'Utilisation et la
+                            <br> Notice d'information et de consentement. 
+                        </label>
+                    <div id="submit">
+                        <button type="submit">S'inscrire</button>
+                    </div>
+              </fieldset>
+          </form>
+          <div id="connecter">
+            <p>Vous-avez déja un compte ? <a href="../connexion/connexion.html">Se connecter</a></p>
+          </div>
+        </div>
+        <div class="téléconsultation">
+          <h4>Téléconsultation médical</h4>
+          <img src="img/patientB-VVPWHEHY.gif" alt="Patient" width="350px" height="280px" id="img1">
+          <p>Réduisez la distance et améliorez votre accès aux soins
+            <br>avec la meilleure des experiences grace à la 
+            <br>téléconsultation(visioconférence).</p>
+        </div>
+        <div class="patient">
+          <h4>Patient et prise de rendez-vous</h4>
+          <img src="img/patientC-LM7Z5IUO.gif" alt="patient" width="350px" height="300px" id="img2">
+          <p>Gerez vos documents de santé avec votre médecin 
+            <br>pour faciliter la consultation ainsi que vos prises 
+            <br>de rendez-vous rapidement et efficacement.</p>
+        </div>
+        <div id="commentaire">
+          <h3>cliquez-ici pour vos <a href="commentaire/commentaire.html" target="_blank">Avis et commentaires</a></h3>
+        </div>
+
+        
+    </body>
+    <footer class="footer">
+      <div id="footer-coordonnées">
+        <h3>------------contactez-nous------------</h3>
+        <p>E-mail: AlloDocteur@gmail.fr
+          <br>Tel: 33-867-34-20</p>
+      </div>
+      <div class="copyright">
+        <p id="copyright">&copy;Copyright 2023 AlloDocteur | Tous droits réservés.</p>
+      </div>
+      
+    </footer>
+    <script src="patient.js"></script>
+    </body>
+</html>

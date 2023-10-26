@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>AlloDocteur-Praticien</title> 
+        <link rel="stylesheet" href="medecin.css">
+        <meta name="description" content="Je suis praticien">
+        <meta name=”viewport” content=”width=device-width, initial-scale=1”>
+
+    </head>
+
+    <body class="body">
+         
+        <header>
+        <nav class="header-nav">
+            <a id="accueil" href="../index.html">Accueil</a>
+            <a href="../patient/patient.html" id="patient">Prendre un rendez-vous medical !</a>
+        </nav>
+        <form id="formulaire" action="" method="post">
+          <div id="connexion-medecin">
+              <label for="emailinput" class="label1">Adresse E-mail</label>
+              <input type="text" name="email" id="emailinput">
+              <label for="password" class="label2">Mot de passe</label>
+              <input type="password" name="password" id="passwordinput" >
+              <button type="submit">connexion</button>
+          </div>   
+        </form>
+        </header>
+        <div id="h4">
+        <h4>Vous etes praticien et vous n'avez pas de compte ?
+        </h4>
+        </div>
+        <div class="rest-body">
+          <form id="formulaireIns" action="" method="post" class="formulaire">
+            <fieldset id="cadre">
+              <legend>Inscrivez-vous</legend>
+                <div>
+                  <label for="prenominput">Prenom</label>
+                  <input type="text" name="Prenom" id="prenominput" placeholder="Prenom" >
+                </div>
+                <div>
+                  <label for="nominput">Nom</label>
+                  <input type="text" name="Nom" id="nominput" placeholder="Nom" >
+                </div>
+                <div>
+                  <label for="emailinput">E-mail</label>
+                  <input type="text" name="E-mail" id="emailinput" placeholder="docteur@gmail.com" >
+                </div>
+                <div>
+                <label for="motdepasseinput">Mot de passe</label>
+                  <input type="password" name="motdepasse" id="motdepasseinput" checked>
+                </div>
+                <div>
+                  <label for="mobileinput">Téléphone</label>
+                  <input type="tel" name="mobile" id="mobileinput" pattern="(+221)[7][0/5/6/7/8][0-9]{7}">
+                </div>
+                <div>
+                  <label for="sexeselect">Sexe</label>
+                  <div>
+                    <select name="sexe" id="sexeselect">
+                      <option value="sexe">Sexe</option>
+                      <option value="femme">Femme</option>
+                      <option value="homme">Homme</option>
+                    </select>   
+                  </div>
+                </div>
+                <div>
+                  <label for="Regioninput">Région</label>
+                  <input type="text" name="Region" id="Regioninput">
+                </div>
+                <div>
+                  <label for="Specialitéselect">Spécialité</label>
+                  <div>
+                    <select name="Spécialité" id="Spécialitéselect" checked>
+                      <option value="choix">Votre Spécialité</option>
+                      <option value="medecin-Généraliste">medecin-Généraliste</option>
+                      <option value="Churirgien-Dentiste">Churirgien-Dentiste</option>
+                      <option value="Pediatre">Pediatre</option>
+                      <option value="Ophtalmologue">Ophtalmologue</option>
+                      <option value="Gynécologuemedical">Gynécologue medical</option>
+                      <option value="Dermatologue">Dermatologue</option>
+                      <option value="Ostheopathe">Ostheopathe</option>
+                      <option value="Opticien-lunetier">Opticien-lunetier</option>
+                      <option value="Masseur-kinésithérapeute">Masseur-kinésithérapeute</option>
+                      <option value="Psychologue">Psychologue</option>
+                      <option value="Dieteticien">Dieteticien</option>
+                      <option value="Andrologue">Andrologue</option>
+                      <option value="Allergologue">Allergologue</option>
+                      <option value="Anesthésite-réanimateur">Anesthésite-réanimateur</option>
+                      <option value="Cardiologue">Cardiologue</option>
+                      <option value="Rhumatologue">Rhumotologue</option>
+                      <option value="Sage-femme">Sage-femme</option>
+                      <option value="Infirmier">Infirmier(re)</option>
+                      <option value="écographiste">écographiste</option>
+                      <option value="Neurologue">Neurologue</option>
+                      <option value="Rhumatologue">Rhumatologue</option>
+                      <option value="ORL">ORL</option>
+                      <option value="Stomatologue">Stomatologue</option>
+                      <option value="Psychiatre">Psychiatre</option>
+                      <option value="Radiologue">Radiologue</option>
+                      <option value="churirgien-orthopédiste-et-traumatologue">Churirgien orthopédiste et traumatologue</option>
+                      <option value="Churirgien-urologue">Chirurgien urologue</option>
+                      <option value="Pédicure-podologue">Pédicure-podologue</option>
+                      <option value="Gastro-entérologue">Gastro-entérologue et hépatologue</option>
+                    </select>
+                  </div>
+                </div> 
+                <div>
+                  <label for="timeinput" >horaire: Début</label>
+                  <input type="time" id="timeinput" name="time">
+                  <label for="fin">Horaire: Fin</label>
+                  <input type="time" id="timeinput" name="time" >
+                </div>
+                <div>
+                  <label id="label-condition">
+                  <input type="checkbox" name="cgu" id="condition">J'ai lu et j'accepte les Conditions Générales d'Utilisation et
+                  <br>la notice d'information et de consentement. 
+                  </label>
+                </div>
+                <div id="submit">
+                  <button type="submit">S'inscrire</button>
+                </div>
+            </fieldset>
+          </form>
+         <article id="article1">
+          <div class="first-h3"> 
+            <h3>La nouvelle génération de solutions pour les praticiens</h3>
+          </div> 
+            <div id="first-h4">
+              <h4>Equipez-vous de AlloDocteur et:</h4>
+            </div>
+              <ul>
+                <li><em>Gagnez en confort de travail</em></li>
+                <li><em>Gagner du temps au quotidien</em></li>
+                <li><em>Améliorez la prise en charge de vos patients</em></li>
+                <li><em>Augmentez vos revenus</em></li>
+              </ul>
+          </div>
+        </article>
+        <img src="img/medecins.jpg" alt="Une communauté de medecin" class="img1" width="500px">
+          <article id="article2">
+            <div class="second-h3">
+              <h3>15ans au cotés des soignants</h3>
+            </div>
+            <div id="text">
+              <p>Depuis 15ans, <strong>AlloDocteur simplifie le quotidien 
+                <br>de dizaines de milliers de praticens.</strong>Ils sont le coeur 
+                <br>de notre système de santé et les soutenir est le meilleur 
+                <br> moyen d'améliorer la santé de tous.</strong></p>
+            </div>
+          </article>
+        </div>
+        </body>
+        <footer class="footer">
+          <div id="footer-coordonnées">
+            <h3>------------contactez-nous------------</h3>
+            <p>E-mail: AlloDocteur@gmail.fr
+              <br>Tel: 33-867-34-20</p>
+          </div>
+          <div class="copyright">
+            <p id="copyright">&copy;Copyright 2023 AlloDocteur | Tous droits réservés.</p>
+          </div>
+          
+        </footer>
+        <script src="medecin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+.admin-action{
+    position: absolute;
+    top: 13%;
+    bottom: 13%;
+    background-color: rgb(88, 207, 207);
+    border-radius: 20%;
+    text-align: center;
+    border: 5px ;
+    border-style:groove ;
+    border-color:rgb(238, 212, 212);
+}
+
+.admin-action button {
+    width: 70%;
+    height: 10%;
+    word-spacing: 20%;
+    padding: 5%;
+    border-radius: 20px;
+    cursor:pointer;
+    background-color: rgb(136, 136, 179) ;
+}
+img{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width:100%;
+    height: 90%;
+}
+
+#adminContent {
+    position: absolute;
+    top: 13%;
+    left: 19%;
+    right: 1%;
+    bottom: 25%;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #665555;
+    background-color: #eed9d9;
+    display: none;
+}
+
+#adminContent table{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 20%;
+    top: 5%;
+}
+
+#adminContent button{
+    word-spacing: 2%;
+    padding: 3%;
+    border-radius: 20px;
+    cursor:pointer;
+    background-color:rgb(69, 136, 69)
+}
+
+header{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(139, 128, 128);
+    border-radius: 50%;
+    display: inline;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    padding: 1%;
+    border: 1px double;
+    font-weight: bolder ;
+}
+
+
+
+div#block{
+    position: absolute;
+    text-align: center;
+    top: 87%;
+    padding: 15px;
+    border-top-left-radius: 35%;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    background-color: rgb(61, 59, 56);
+    color: aqua;
+}
+
+body{
+background-color: aliceblue;
+
+}

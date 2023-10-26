@@ -1,0 +1,396 @@
+header{
+    background: rgb(84, 84, 190);
+    margin: 0;
+    padding: 0.7%;
+
+}
+.header-nav {
+    font-size: 20%;
+   text-align: right;
+   font-family: serif;
+}
+.header-nav a {
+    color: aliceblue;
+    font-size: 18px;
+    padding: 6px;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+#id1{
+    float: left;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+#id1:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
+.bouton{
+    width: 14%;
+    height: 30px;
+    background-color: white;
+    border: 2px solid white;
+      
+}
+ 
+.bouton a{
+    color: rgb(5, 5, 109);
+}
+
+button{
+    width: 10%;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+
+.header-nav a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.main .h1-header {
+    text-align: center;
+    color: beige;
+    padding: 30px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, serif;
+    letter-spacing: 0.4px;
+}
+.main {
+    background:aliceblue;
+   padding: 0;
+   margin: 0;
+   max-width: 100%;
+   overflow-x: hidden;
+   max-height: auto;
+
+}
+
+.main p,li,h4{
+
+    letter-spacing: 0.4px;
+    font-weight: lighter;
+}
+
+
+.main .h1-important{
+
+    text-align: center;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+    margin-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif;
+}
+
+.main .h4-important{
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: rgba(0, 0, 0, 0.979);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 19px;
+
+}
+
+.search-bar {
+    text-align: center;
+    font-size: large;
+    margin-bottom: 20px;
+    margin-top: 0;
+    background: white;
+    border: 1;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+    
+input{
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+input::placeholder{
+    padding-right: 100px;
+}
+
+.rest-main{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    max-width: 100%;
+}
+
+.rest-main h2{
+   font-family: 'Times New Roman', Times, serif;
+   letter-spacing: 0.4px;
+   font-style: italic;
+
+}
+
+.img1{
+    text-align: left;
+    letter-spacing: 0.4px;
+    position: relative;
+    top: 30px;
+    left: 190px;
+
+}
+
+.img1 p {
+    font-size: 17px;
+    letter-spacing: 0.4px;
+
+}
+
+.img2{
+    text-align: center;
+    letter-spacing: 0.4px;
+    position: relative;
+    bottom: 250px;
+    left: 5px;
+    
+}
+
+.img2 p{
+
+    font-size: 17px;
+    letter-spacing: 0.4px;
+}
+
+.img3{
+    text-align: right;
+    position: relative;
+    bottom: 527px;
+    right: 180px;
+}
+
+.img3 p {
+    font-size: 17px;
+    letter-spacing: 0.4px;
+
+}
+
+.img4{
+
+    position: relative;
+    left: 200px;
+}
+
+.h2-tete{
+    text-align: center;
+    margin-left: 28px;
+    margin-bottom: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+}
+
+.h2-suite{
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+}
+
+#patient{
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.h2-important{
+    text-decoration: underline;
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+#horizontale{
+    position: relative;
+    bottom: 450px;
+
+}
+
+#Praticien{
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    position: relative;
+    bottom: 425px;
+}
+
+#Praticien h3{
+    color: rgba(110, 110, 110, 0.884);
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+}
+
+#Praticien img{
+    text-align: left;
+    letter-spacing: 0.4px;
+    position: relative;
+
+}
+
+.titre1{
+    font-size: 20px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    bottom: 300px;
+    text-align: center;
+    
+
+}
+
+.button-cadre1{
+    height: 200px;
+    width: 275px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid ;
+    box-shadow: rgb(207, 205, 205);
+    position: relative;
+    bottom: 237px;
+    left: -10px;
+    
+}
+
+.button-cadre2{
+    height: 200px;
+    width: 275px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid ;
+    box-shadow: rgb(207, 205, 205);
+    position: relative;
+    bottom: 237px;
+    left: 50px;
+    
+
+}
+
+.button-cadre3{
+    height: 200px;
+    width: 275px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid ;
+    box-shadow: rgb(207, 205, 205);
+    position: relative;
+    bottom: 237px;
+    left: 110px;
+}
+
+.button-cadre4{
+    height: 200px;
+    width: 275px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid ;
+    box-shadow: rgb(207, 205, 205);
+    position: relative;
+    bottom: 237px;
+    left: 170px;
+}
+    
+
+#sécurisé, #mobile{
+    font-size: 25px;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+}
+
+#utilisé, #conçu{
+    font-size: 25px;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+
+.sécurisé-text, .mobile-text, .utilisé-text, .conçu-text{
+    font-size: 14px;
+    position: relative;
+    bottom: 50px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#h4-aide{
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+   
+}
+
+#footer{
+    height: 5px;
+    margin: 300px;
+}
+
+#titre2{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 260px;
+    right: 250px;
+}
+
+#specialité1{
+    font-size: 16px;
+    position: relative;
+    bottom: 260px;
+    right: 250px;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+}
+#specialité2{
+    font-size: 16px;
+    position: relative;
+    bottom: 630px;
+    left:175px;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+
+}
+.horizontal-footer{
+    position: relative;
+    bottom: 600px;
+}
+
+#copyright{
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+
+
+
+
+
+

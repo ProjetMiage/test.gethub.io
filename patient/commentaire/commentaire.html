@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>AlloDocteur-Avis et commentaire</title> 
+        <link rel="stylesheet" href="commentaire.css">
+        <meta name="description" content="je suis patient">
+        <meta name=”viewport” content=”width=device-width, initial-scale=1”>
+    </head>
+    <body>
+        <header>
+            <nav class="header-nav">
+                <a id="accueil" href="../../index.html">Accueil</a>
+                <a href="../../aide/aide.html" id="connexion" target="_blank">Centre d'aide</a>
+              </nav>
+        </header>
+        <h3>Veuillez laissez un commentaire ou avis!</h3>
+        <form action="formulaire" class="formulaire" id="formulaireIns" method="post">
+            <fieldset id="cadre">
+                <div>
+                   <label for="nominput">Nom</label>
+                   <input type="text" name="nom" id="nominput" >
+                </div>
+                <div>
+                    <label for="prenominput">Prénom</label>
+                    <input type="text" name="Prenom" id="prenominput">
+                </div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" id="emailinput">
+                </div>
+                <div>
+                    <label for="commentaire">Avis ou commentaire</label>
+                    <textarea name="commentaire" id="commentaire" rows="4" cols="50"></textarea>
+                </div>
+                <div id="submit">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </fieldset>
+        </form>
+        <script src="commentaire.js"></script>
+    </body>
+</html>
+
+    
